@@ -1,0 +1,356 @@
+{
+  "images": {
+    "hero-evening": {
+      "path": "assets/images/hero-evening.webp",
+      "width": 1600,
+      "height": 919,
+      "bytes": 238290,
+      "title": "Evening aerial",
+      "source_label": "Exterior and amenities demo"
+    },
+    "aerial-morning": {
+      "path": "assets/images/aerial-morning.webp",
+      "width": 1600,
+      "height": 914,
+      "bytes": 291690,
+      "title": "Morning aerial",
+      "source_label": "Exterior and amenities demo"
+    },
+    "street-arrival": {
+      "path": "assets/images/street-arrival.webp",
+      "width": 1600,
+      "height": 919,
+      "bytes": 303414,
+      "title": "Street arrival",
+      "source_label": "Exterior and amenities demo"
+    },
+    "waterfront-evening": {
+      "path": "assets/images/waterfront-evening.webp",
+      "width": 1600,
+      "height": 915,
+      "bytes": 236092,
+      "title": "Waterfront at dusk",
+      "source_label": "Exterior and amenities demo"
+    },
+    "amenity-fitness": {
+      "path": "assets/images/amenity-fitness.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 176800,
+      "title": "Fitness studio",
+      "source_label": "Exterior and amenities demo"
+    },
+    "amenity-screening": {
+      "path": "assets/images/amenity-screening.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 104888,
+      "title": "Screening lounge",
+      "source_label": "Exterior and amenities demo"
+    },
+    "amenity-court": {
+      "path": "assets/images/amenity-court.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 114112,
+      "title": "Indoor court",
+      "source_label": "Exterior and amenities demo"
+    },
+    "amenity-lounge": {
+      "path": "assets/images/amenity-lounge.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 187360,
+      "title": "Lounge interior",
+      "source_label": "Exterior and amenities demo"
+    },
+    "amenity-yoga": {
+      "path": "assets/images/amenity-yoga.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 176562,
+      "title": "Yoga studio",
+      "source_label": "Exterior and amenities demo"
+    },
+    "amenity-games": {
+      "path": "assets/images/amenity-games.webp",
+      "width": 1600,
+      "height": 900,
+      "bytes": 113042,
+      "title": "Games room",
+      "source_label": "Exterior and amenities demo"
+    },
+    "open-living": {
+      "path": "assets/images/open-living.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 89700,
+      "title": "Open-plan living and dining",
+      "source_label": "Residential interiors demo"
+    },
+    "living-room": {
+      "path": "assets/images/living-room.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 114464,
+      "title": "Living room",
+      "source_label": "Residential interiors demo"
+    },
+    "dining-room": {
+      "path": "assets/images/dining-room.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 96304,
+      "title": "Dining room",
+      "source_label": "Residential interiors demo"
+    },
+    "kitchen": {
+      "path": "assets/images/kitchen.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 96272,
+      "title": "Kitchen with island",
+      "source_label": "Residential interiors demo"
+    },
+    "bedroom-primary": {
+      "path": "assets/images/bedroom-primary.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 97310,
+      "title": "Primary bedroom",
+      "source_label": "Residential interiors demo"
+    },
+    "bedroom-second": {
+      "path": "assets/images/bedroom-second.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 103196,
+      "title": "Second bedroom",
+      "source_label": "Residential interiors demo"
+    },
+    "terrace-lounge": {
+      "path": "assets/images/terrace-lounge.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 149824,
+      "title": "Terrace lounge",
+      "source_label": "Residential interiors demo"
+    },
+    "terrace-view": {
+      "path": "assets/images/terrace-view.webp",
+      "width": 1600,
+      "height": 800,
+      "bytes": 65100,
+      "title": "Terrace and water view",
+      "source_label": "Residential interiors demo"
+    },
+    "bedroom-detail": {
+      "path": "assets/images/bedroom-detail.webp",
+      "width": 1280,
+      "height": 640,
+      "bytes": 46460,
+      "title": "Bedroom detail",
+      "source_label": "Residential interiors demo"
+    },
+    "day-front": {
+      "path": "assets/images/day-front.webp",
+      "width": 1600,
+      "height": 911,
+      "bytes": 249146,
+      "title": "Daytime frontal view",
+      "source_label": "Exterior and amenities demo",
+      "crop_box": [
+        320,
+        4,
+        2048,
+        988
+      ]
+    },
+    "evening-front": {
+      "path": "assets/images/evening-front.webp",
+      "width": 1600,
+      "height": 911,
+      "bytes": 234716,
+      "title": "Evening frontal view",
+      "source_label": "Exterior and amenities demo",
+      "crop_box": [
+        320,
+        4,
+        2048,
+        988
+      ]
+    }
+  },
+  "clips": {
+    "exterior-orbit": {
+      "path": "assets/videos/exterior-orbit.mp4",
+      "poster": "assets/posters/exterior-orbit.webp",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 12.0,
+      "bytes": 2566328,
+      "title": "Exterior orbit",
+      "source_label": "Exterior and amenities demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 540
+    },
+    "waterfront-detail": {
+      "path": "assets/videos/waterfront-detail.mp4",
+      "poster": "assets/posters/waterfront-detail.webp",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 5.966667,
+      "bytes": 904003,
+      "title": "Waterfront detail",
+      "source_label": "Exterior and amenities demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 540
+    },
+    "lounge": {
+      "path": "assets/videos/lounge.mp4",
+      "poster": "assets/posters/lounge.webp",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 5.966667,
+      "bytes": 612845,
+      "title": "Lounge interior",
+      "source_label": "Exterior and amenities demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 540
+    },
+    "yoga": {
+      "path": "assets/videos/yoga.mp4",
+      "poster": "assets/posters/yoga.webp",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 8.966667,
+      "bytes": 727886,
+      "title": "Yoga studio",
+      "source_label": "Exterior and amenities demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 540
+    },
+    "games": {
+      "path": "assets/videos/games.mp4",
+      "poster": "assets/posters/games.webp",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 6.966667,
+      "bytes": 348625,
+      "title": "Games room",
+      "source_label": "Exterior and amenities demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 540
+    },
+    "lighting": {
+      "path": "assets/videos/lighting.mp4",
+      "poster": "assets/posters/lighting.webp",
+      "width": 1280,
+      "height": 720,
+      "duration_seconds": 7.966667,
+      "bytes": 1481602,
+      "title": "Changing light",
+      "source_label": "Exterior and amenities demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 540
+    },
+    "living-dining": {
+      "path": "assets/videos/living-dining.mp4",
+      "poster": "assets/posters/living-dining.webp",
+      "width": 1280,
+      "height": 640,
+      "duration_seconds": 7.5,
+      "bytes": 934451,
+      "title": "Living and dining",
+      "source_label": "Residential interiors demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 480
+    },
+    "kitchen-living": {
+      "path": "assets/videos/kitchen-living.mp4",
+      "poster": "assets/posters/kitchen-living.webp",
+      "width": 1280,
+      "height": 640,
+      "duration_seconds": 7.5,
+      "bytes": 857593,
+      "title": "Kitchen and living",
+      "source_label": "Residential interiors demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 480
+    },
+    "bedrooms": {
+      "path": "assets/videos/bedrooms.mp4",
+      "poster": "assets/posters/bedrooms.webp",
+      "width": 1280,
+      "height": 640,
+      "duration_seconds": 11.266667,
+      "bytes": 1003277,
+      "title": "Bedrooms",
+      "source_label": "Residential interiors demo",
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "frame_rate": "30/1",
+      "has_audio": false,
+      "faststart": true,
+      "poster_width": 960,
+      "poster_height": 480
+    }
+  },
+  "comparison": {
+    "day": "day-front",
+    "evening": "evening-front",
+    "description": "Same frontal camera view at two times of day."
+  },
+  "settings": {
+    "images": "WebP, quality 85, maximum width 1600 pixels",
+    "posters": "WebP, quality 84, maximum width 960 pixels",
+    "video_delivery": "MP4 for in-page playback"
+  },
+  "totals": {
+    "image_count": 21,
+    "clip_count": 9,
+    "image_bytes": 3284742,
+    "video_bytes": 9436610,
+    "poster_bytes": 596212
+  }
+}

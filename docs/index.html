@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15181b">
+  <meta name="description" content="An architectural visualisation demo. Explore exterior films, shared spaces, considered interiors and changing light.">
+  <meta property="og:title" content="Property experiences — an architectural showcase">
+  <meta property="og:description" content="Architecture, interiors and atmosphere. A visual demonstration with short films and room galleries.">
+  <title>Property experiences — an architectural showcase</title>
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="assets/fonts/serif.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/fonts/sans.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/images/hero-evening.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke="currentColor" stroke-width="3"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-fullscreen" viewBox="0 0 24 24"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#main">Skip to showcase</a>
+  <header class="site-header" id="site-header">
+    <a class="site-label" href="#top" aria-label="Property experiences, back to top">PROPERTY<br><span>EXPERIENCES</span></a>
+    <nav aria-label="Main navigation" class="desktop-nav">
+      <a href="#architecture">Architecture</a><a href="#shared-spaces">Shared spaces</a><a href="#interiors">Interiors</a><a href="#atmosphere">Atmosphere</a>
+    </nav>
+    <a href="#investment" class="header-link">Create your experience <svg class="icon"><use href="#i-diagonal"/></svg></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+  </header>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+    <a href="#architecture">Architecture <span>01</span></a><a href="#shared-spaces">Shared spaces <span>02</span></a><a href="#interiors">Interiors <span>03</span></a><a href="#atmosphere">Atmosphere <span>04</span></a><a href="#investment">Create your experience <span>↗</span></a>
+  </nav>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/images/hero-evening.webp" alt="An illuminated waterfront development at sunset" width="1600" height="919" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow light"><span class="pink-dot"></span> ARCHITECTURAL VISUALISATION / DEMO</p>
+        <h1 id="hero-title">Let them see it.<br><em>Let them feel it.</em></h1>
+        <p class="hero-intro">Bring your next development to life through architecture, interiors and moments in motion.</p>
+        <div class="hero-actions">
+          <button class="button button-pink" data-film="exterior-orbit"><svg class="icon"><use href="#i-play"/></svg> Watch the exterior film</button>
+          <a class="text-link" href="#architecture">Explore the showcase <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-footer wrap"><span>A VISUAL DEMONSTRATION</span><span>EXTERIORS · INTERIORS · ATMOSPHERE</span><a href="#architecture" aria-label="Scroll to architecture">SCROLL TO EXPLORE <span>↓</span></a></div>
+    </section>
+
+    <section class="intro wrap" aria-labelledby="intro-title">
+      <p class="eyebrow">BUILT TO BE EXPERIENCED</p>
+      <div class="intro-grid"><h2 id="intro-title">From a first impression<br>to a sense of <em>belonging.</em></h2><div><p>A project is more than its elevations. It is the approach, the spaces people share, the rooms they return to and the way light moves through it all.</p><p>This showcase brings those moments together in a series of short films and stills.</p></div></div>
+      <div class="chapter-index"><a href="#architecture"><span>01</span> The architecture <svg class="icon"><use href="#i-diagonal"/></svg></a><a href="#shared-spaces"><span>02</span> The shared spaces <svg class="icon"><use href="#i-diagonal"/></svg></a><a href="#interiors"><span>03</span> The interiors <svg class="icon"><use href="#i-diagonal"/></svg></a><a href="#atmosphere"><span>04</span> The atmosphere <svg class="icon"><use href="#i-diagonal"/></svg></a></div>
+    </section>
+
+    <section id="architecture" class="architecture section-pad" aria-labelledby="architecture-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow"><span>01 /</span> THE ARCHITECTURE</p><h2 id="architecture-title">A sense of place.<br><em>From every angle.</em></h2></div><p>Move from the wider setting to the details that define a development. See its scale, arrival and relationship with the waterfront.</p></div>
+        <button class="film-cover architecture-feature" data-film="exterior-orbit" aria-label="Play exterior orbit film, 12 seconds">
+          <img src="assets/images/aerial-morning.webp" alt="Daylight aerial view of the development and marina" width="1600" height="914" loading="lazy">
+          <span class="cover-shade"></span><span class="play-round"><svg class="icon"><use href="#i-play"/></svg></span>
+          <span class="cover-caption"><span><span class="eyebrow">THE BIG PICTURE</span><strong>Architecture in motion</strong></span><span class="film-length">12 SEC FILM <svg class="icon"><use href="#i-diagonal"/></svg></span></span>
+        </button>
+        <div class="architecture-pair">
+          <figure><button class="image-open" data-gallery="architecture" data-index="1" aria-label="View the arrival image"><img src="assets/images/street-arrival.webp" alt="Street approach toward the two towers, framed by palms" loading="lazy" width="1600" height="919"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>The arrival</span><span>STILL / 01</span></figcaption></figure>
+          <figure><button class="film-cover" data-film="waterfront-detail" aria-label="Play waterfront detail film, 6 seconds"><img src="assets/images/waterfront-evening.webp" alt="Terraces and waterfront decks illuminated at dusk" loading="lazy" width="1600" height="915"><span class="play-small"><svg class="icon"><use href="#i-play"/></svg></span><span class="duration-tag">6 SEC</span></button><figcaption><span>Closer to the water</span><span>SHORT FILM / 02</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="shared-spaces" class="shared-spaces section-pad dark-section" aria-labelledby="shared-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow"><span>02 /</span> THE SHARED SPACES</p><h2 id="shared-title">Show the life<br><em>around the home.</em></h2></div><p>Spaces to gather, move and unwind. Explore the character of the amenities through selected interior films.</p></div>
+        <div class="room-feature" id="amenity-feature">
+          <div class="room-story"><p class="eyebrow accent">EXPLORE A SPACE</p><div class="room-tabs" role="tablist" aria-label="Shared space films" aria-orientation="vertical"><button id="amenity-tab-lounge" role="tab" aria-selected="true" aria-controls="amenity-panel" data-room="lounge"><span>01</span> Dining & lounge <svg class="icon"><use href="#i-arrow"/></svg></button><button id="amenity-tab-yoga" role="tab" aria-selected="false" aria-controls="amenity-panel" tabindex="-1" data-room="yoga"><span>02</span> Yoga studio <svg class="icon"><use href="#i-arrow"/></svg></button><button id="amenity-tab-games" role="tab" aria-selected="false" aria-controls="amenity-panel" tabindex="-1" data-room="games"><span>03</span> Games room <svg class="icon"><use href="#i-arrow"/></svg></button></div><p id="amenity-description">Warm materials, intimate seating and a place for everyday conversations.</p><span class="small-note">SELECT A ROOM, THEN PRESS PLAY</span></div>
+          <div id="amenity-panel" role="tabpanel" aria-labelledby="amenity-tab-lounge"><button class="film-cover room-film" data-film="lounge" id="amenity-film" aria-label="Play dining and lounge film"><img id="amenity-image" src="assets/images/amenity-lounge.webp" alt="A warmly lit dining and lounge interior" width="1600" height="900" loading="lazy"><span class="cover-shade"></span><span class="play-round"><svg class="icon"><use href="#i-play"/></svg></span><span class="cover-caption"><strong id="amenity-title">Dining & lounge</strong><span class="film-length" id="amenity-duration">6 SEC FILM</span></span></button></div>
+        </div>
+        <div class="gallery-heading"><h3>More ways to spend the day.</h3><span class="small-note">SELECT AN IMAGE TO EXPLORE</span></div>
+        <div class="amenity-gallery">
+          <figure><button class="image-open" data-gallery="amenities" data-index="3" aria-label="View fitness studio"><img src="assets/images/amenity-fitness.webp" alt="Fitness studio with exercise equipment and expansive windows" width="1600" height="900" loading="lazy"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>Fitness studio</span><span>01</span></figcaption></figure>
+          <figure><button class="image-open" data-gallery="amenities" data-index="4" aria-label="View screening lounge"><img src="assets/images/amenity-screening.webp" alt="Screening lounge with a large screen wall and comfortable seating" width="1600" height="900" loading="lazy"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>Screening lounge</span><span>02</span></figcaption></figure>
+          <figure><button class="image-open" data-gallery="amenities" data-index="5" aria-label="View indoor court"><img src="assets/images/amenity-court.webp" alt="Indoor racquet court beside floor-to-ceiling windows" width="1600" height="900" loading="lazy"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>Indoor court</span><span>03</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="interiors" class="interiors section-pad" aria-labelledby="interiors-title">
+      <div class="wrap">
+        <div class="section-heading"><div><p class="eyebrow"><span>03 /</span> THE INTERIORS</p><h2 id="interiors-title">Step inside.<br><em>Picture the everyday.</em></h2></div><p>Follow the flow of a home, from open living and dining areas to quieter bedrooms and terraces.</p></div>
+        <div class="interior-tabs" role="tablist" aria-label="Residential interior films"><button id="interior-tab-living-dining" role="tab" aria-selected="true" aria-controls="interior-panel" data-room="living-dining">Living & dining <span>01</span></button><button id="interior-tab-kitchen-living" role="tab" aria-selected="false" aria-controls="interior-panel" tabindex="-1" data-room="kitchen-living">Kitchen & living <span>02</span></button><button id="interior-tab-bedrooms" role="tab" aria-selected="false" aria-controls="interior-panel" tabindex="-1" data-room="bedrooms">The bedrooms <span>03</span></button></div>
+        <div id="interior-panel" role="tabpanel" aria-labelledby="interior-tab-living-dining"><button class="film-cover interior-film" data-film="living-dining" id="interior-film" aria-label="Play living and dining film"><img id="interior-image" src="assets/images/open-living.webp" alt="Open living and dining space with a sculptural staircase" width="1600" height="800" loading="lazy"><span class="cover-shade"></span><span class="play-round"><svg class="icon"><use href="#i-play"/></svg></span><span class="cover-caption"><span><span class="eyebrow">A CLOSER LOOK</span><strong id="interior-title">Room to come together.</strong></span><span id="interior-duration" class="film-length">8 SEC FILM</span></span></button></div>
+        <div class="interior-gallery">
+          <figure class="wide"><button class="image-open" data-gallery="interiors" data-index="1" aria-label="Explore the living room gallery"><img src="assets/images/living-room.webp" alt="Contemporary living room with a generous sofa and layered warm finishes" width="1600" height="800" loading="lazy"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>Considered living</span><span>LIVING ROOM</span></figcaption></figure>
+          <figure><button class="image-open" data-gallery="interiors" data-index="3" aria-label="Explore the kitchen gallery"><img src="assets/images/kitchen.webp" alt="Kitchen and central island opening into the living space" width="1600" height="800" loading="lazy"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>The heart of the home</span><span>KITCHEN</span></figcaption></figure>
+          <figure><button class="image-open" data-gallery="interiors" data-index="4" aria-label="Explore the bedroom gallery"><img src="assets/images/bedroom-primary.webp" alt="Primary bedroom with soft furnishings and warm ambient lighting" width="1600" height="800" loading="lazy"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>A quieter retreat</span><span>BEDROOM</span></figcaption></figure>
+          <figure class="wide"><button class="image-open" data-gallery="interiors" data-index="6" aria-label="Explore the terrace gallery"><img src="assets/images/terrace-lounge.webp" alt="Outdoor terrace lounge with seating overlooking the water" width="1600" height="800" loading="lazy"><span class="image-expand"><svg class="icon"><use href="#i-diagonal"/></svg></span></button><figcaption><span>Open to the outside</span><span>TERRACE</span></figcaption></figure>
+        </div>
+        <button class="text-link dark-link gallery-all" data-gallery="interiors" data-index="0">Explore all interior stills <span>09 IMAGES</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+      </div>
+    </section>
+
+    <section id="atmosphere" class="atmosphere dark-section section-pad" aria-labelledby="atmosphere-title">
+      <div class="wrap"><div class="section-heading"><div><p class="eyebrow"><span>04 /</span> LIGHT & ATMOSPHERE</p><h2 id="atmosphere-title">One setting.<br><em>A different feeling.</em></h2></div><div><p>See the same architecture in morning light and at dusk. Drag the divider to explore the change.</p><button class="text-link" data-film="lighting"><svg class="icon"><use href="#i-play"/></svg> Watch the lighting film <span>8 SEC</span></button></div></div>
+        <div class="comparison" id="comparison" style="--split:50%">
+          <img src="assets/images/evening-front.webp" alt="The development illuminated at dusk" width="1600" height="911" loading="lazy">
+          <div class="comparison-before"><img src="assets/images/day-front.webp" alt="The same development in morning light" width="1600" height="911" loading="lazy"></div>
+          <span class="comparison-label label-day">MORNING</span><span class="comparison-label label-evening">EVENING</span><span class="comparison-divider"><span>‹ ›</span></span>
+          <input id="light-slider" type="range" min="0" max="100" value="50" aria-label="Compare morning and evening views" aria-valuetext="50% morning, 50% evening">
+        </div>
+        <div class="comparison-footer"><button data-light="100">Morning</button><span>DRAG TO COMPARE <span>↔</span></span><button data-light="0">Evening</button></div>
+      </div>
+    </section>
+
+    <section id="investment" class="investment" aria-labelledby="investment-title">
+      <div class="investment-orbit" aria-hidden="true"></div><div class="wrap investment-inner"><p class="eyebrow">YOUR NEXT DEVELOPMENT</p><h2 id="investment-title">Turn a project<br>into an <em>experience.</em></h2><p class="investment-intro">A considered presentation of your architecture, shared spaces and interiors.</p><div class="price-block"><p>STARTING FROM</p><div class="price">₹10 <span>Lakhs</span></div><p class="price-note">For a custom project visualisation experience.<br>Final scope and deliverables are agreed before production.</p></div></div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><p>ARCHITECTURAL VISUALISATION DEMO</p><p>Illustrative visuals from two demonstration projects.</p><a href="#top">Back to top ↑</a></footer>
+  <noscript><p class="noscript-note">Enable JavaScript to play the films, change rooms and use the image galleries. The showcase images remain available below.</p></noscript>
+
+  <dialog class="media-dialog" id="media-dialog" aria-labelledby="media-title">
+    <div class="dialog-shell"><div class="dialog-top"><div><p id="media-category" class="eyebrow">SHORT FILM</p><h2 id="media-title">Architecture in motion</h2></div><button class="icon-button close-dialog" aria-label="Close viewer"><svg class="icon"><use href="#i-close"/></svg></button></div>
+      <div class="video-view" id="video-view"><div class="video-stage" id="video-stage"><video id="showcase-video" playsinline muted preload="none" controlslist="nodownload noremoteplayback" disablepictureinpicture aria-label="Showcase film"></video><button class="video-overlay-play" id="overlay-play" aria-label="Play film"><svg class="icon"><use href="#i-play"/></svg></button><div class="player-message" id="player-message" role="status" hidden><span></span><button id="retry-video" hidden>Try again</button></div><div class="video-controls"><button class="icon-button" id="toggle-play" aria-label="Play film"><svg class="icon"><use href="#i-play"/></svg></button><span id="video-time" class="video-time">0:00 / 0:00</span><input id="video-progress" type="range" min="0" max="100" step="0.1" value="0" aria-label="Video playback position"><span class="silent-label">SILENT FILM</span><button class="icon-button" id="fullscreen-video" aria-label="Enter fullscreen"><svg class="icon"><use href="#i-fullscreen"/></svg></button></div></div><p class="viewer-caption" id="video-caption"></p></div>
+      <div class="image-view" id="image-view" hidden><div class="image-stage"><img id="viewer-image" alt=""><button id="image-prev" class="icon-button image-nav prev" aria-label="Previous image"><svg class="icon"><use href="#i-chevron"/></svg></button><button id="image-next" class="icon-button image-nav next" aria-label="Next image"><svg class="icon"><use href="#i-chevron"/></svg></button></div><div class="image-footer"><span id="image-caption"></span><span id="image-count" aria-live="polite"></span></div><div class="image-thumbnails" id="image-thumbnails" aria-label="Image selection"></div></div>
+    </div>
+  </dialog>
+</body>
+</html>
